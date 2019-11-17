@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<AnchorPane fx:id="AnchorPane" prefHeight="600" prefWidth="800"
+            xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.danilovms.rcloud.client.Controllers.Controller">
+    <!-- Объявление панелей -->
+    <fx:define>
+        <!-- Основаная панель -->
+        <AnchorPane fx:id="apMain" layoutY="29.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+
+            <!-- Каталог с файлами -->
+            <Label text="Path:"
+                   AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="5.0"/>
+            <TextField fx:id="tfPath"
+                       AnchorPane.topAnchor="5.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="200.0"/>
+            <Button onAction="#btReloadFilesPath" text=">>"
+                    AnchorPane.topAnchor="5.0" AnchorPane.rightAnchor="160.0"/>
+
+            <!-- Таблица локальных фалов -->
+            <TableView fx:id="localFile" editable="false"
+                       AnchorPane.topAnchor="35.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="405.0" AnchorPane.bottomAnchor="5.0">
+                <columns>
+                    <TableColumn prefWidth="100" fx:id="nameLocalFile" text="Name"/>
+                    <TableColumn prefWidth="250" fx:id="fullNameLocalFile" text="Full name"/>
+                </columns>
+                <contextMenu>
+                    <ContextMenu>
+                        <items>
+                            <MenuItem fx:id="cmSendToServer" onAction="#sendFileToServer" text="Отправить на сервер"/>
+                            <MenuItem fx:id="cmDeleteLocalFile" onAction="#deleteLocalFile" text="Удалить файл"/>
+                            <MenuItem fx:id="cmRenameLocalFile" onAction="#renameLocalFile" text="Переимновать файл"/>
+                        </items>
+                    </ContextMenu>
+                </contextMenu>
+            </TableView>
+
+            <!-- Таблица файлов на сервере -->
+            <TableView fx:id="serverFile" editable="false" prefWidth="395.0"
+                       AnchorPane.topAnchor="35.0" AnchorPane.rightAnchor="5.0" AnchorPane.bottomAnchor="5.0">
+                <columns>
+                    <TableColumn prefWidth="100" fx:id="nameServerFile" text="Name"/>
+                    <TableColumn prefWidth="250" fx:id="fullNameServerFile" text="Full name"/>
+                </columns>
+                <contextMenu>
+                    <ContextMenu>
+                        <items>
+                            <MenuItem fx:id="cmDownload" text="Скачать с сервера"/>
+                            <MenuItem fx:id="cmDeleteServerFile" text="Удалить файл"/>
+                            <MenuItem fx:id="cmRenameServerFile" text="Переименовать файл"/>
+                        </items>
+                    </ContextMenu>
+                </contextMenu>
+            </TableView>
+        </AnchorPane>
+    </fx:define>
+
+    <!-- наполнение -->
+    <children>
+        <!-- Меню -->
+        <MenuBar prefHeight="29.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <menus>
+                <Menu text="rCloud">
+                    <items>
+                        <MenuItem fx:id="miAboutRCloud" text="О rCloud" />
+                        <SeparatorMenuItem />
+                        <MenuItem fx:id="miPreference" text="Настройки" />
+                        <SeparatorMenuItem />
+                        <MenuItem fx:id="miCloseWindow" onAction="#closeChat" text="Выход из rCloud" />
+                    </items>
+                </Menu>
+                <Menu text="Вид">
+                    <items>
+                        <MenuItem fx:id="miFullScreen" text="Полно экранный режим" />
+                        <SeparatorMenuItem />
+                        <MenuItem fx:id="miTakeTheme" text="Выбрать тему" />
+                    </items>
+                </Menu>
+                <Menu text="Окна">
+                    <MenuItem fx:id="miMinimise" text="Свернуть" />
+                    <MenuItem fx:id="miClose" text="Закрыть" />
+                </Menu>
+            </menus>
+        </MenuBar>
+
+        <fx:reference source="apMain"
+                      AnchorPane.topAnchor="30.0" AnchorPane.rightAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.bottomAnchor="0.0"/>
+    </children>
+</AnchorPane>
