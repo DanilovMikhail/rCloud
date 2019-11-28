@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35c50d3-cf9a-4c21-8e8a-7f3e22a9c843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileClient/Методичка 2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileClient/Презентация 3. Java. Углубленное изучение. Фреймворк Netty.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileServer/Презентация 3. Java. Углубленное изучение. Фреймворк Netty.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/RenameFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/fxml/Login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/fxml/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/fxml/Message.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/fxml/RenameFile.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/META-INF/client.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/fxml/Login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/fxml/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/fxml/Message.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/fxml/RenameFile.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/RenameFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/EncodeDecode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/InfoPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/ObjectFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/PackageFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/EncodeDecode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/InfoPath$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/InfoPath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/ObjectFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/net/danilovms/rcloud/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/mainDB.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/fxml/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
