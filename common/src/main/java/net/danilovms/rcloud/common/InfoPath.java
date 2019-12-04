@@ -1,21 +1,21 @@
 package net.danilovms.rcloud.common;
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import net.danilovms.rcloud.common.Objects.ObjectFile;
 
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
-import java.util.HashSet;
+import java.util.ArrayList;
 
-public class InfoPath {
+public class InfoPath{
 
     private Path path;
     private boolean pathExist;
-    private ObservableList<ObjectFile> infoLocalObjectFile = FXCollections.observableArrayList();
+    private ArrayList<ObjectFile> infoLocalObjectFile = new ArrayList();;
 
     public InfoPath(String path){
         this.path = Paths.get(path);
+        setPathExist(Files.exists(this.path));
     }
 
     public void setPathExist(boolean pathExist) {
@@ -27,19 +27,13 @@ public class InfoPath {
     }
 
     public boolean isPathExist(){
-        setPathExist(Files.exists(this.path));
-
         return this.pathExist;
     }
 
-    public ObservableList<ObjectFile> getInfoLocalObjectFile() {
+    public ArrayList<ObjectFile> getInfoLocalObjectFile() {
         if (!this.pathExist){
             return null;
         }
-
-        //ссылка на директорию выше
-        infoLocalObjectFile.add(new ObjectFile("..", "", true));
-
         //обход директории
         try {
             Files.walkFileTree(this.path, new FileVisitor<Path>() {

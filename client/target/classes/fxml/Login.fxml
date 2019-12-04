@@ -22,7 +22,7 @@
                     AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.topAnchor="80" />
 
             <Label fx:id="lblAuth"
-                   AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.topAnchor="105"/>
+                   AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.topAnchor="115"/>
         </AnchorPane>
     </fx:define>
 

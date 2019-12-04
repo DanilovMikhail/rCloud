@@ -1,6 +1,8 @@
-package net.danilovms.rcloud.common;
+package net.danilovms.rcloud.common.Objects;
 
-public class ObjectFile {
+import net.danilovms.rcloud.common.Objects.AbstractMessage;
+
+public class ObjectFile extends AbstractMessage {
     private String name;
     private String fullName;
     private boolean folder;

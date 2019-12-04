@@ -55,9 +55,9 @@
                 <contextMenu>
                     <ContextMenu>
                         <items>
-                            <MenuItem fx:id="cmDownload" text="Скачать с сервера"/>
-                            <MenuItem fx:id="cmDeleteServerFile" text="Удалить файл"/>
-                            <MenuItem fx:id="cmRenameServerFile" text="Переименовать файл"/>
+                            <MenuItem fx:id="cmDownload" onAction="#downloadFileFromServer" text="Скачать с сервера"/>
+                            <MenuItem fx:id="cmDeleteServerFile" onAction="#deleteFileFromServer" text="Удалить файл"/>
+                            <MenuItem fx:id="cmRenameServerFile" onAction="#renameFileFromServer" text="Переименовать файл"/>
                         </items>
                     </ContextMenu>
                 </contextMenu>

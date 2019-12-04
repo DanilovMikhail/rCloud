@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d35c50d3-cf9a-4c21-8e8a-7f3e22a9c843" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/Objects/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/net/danilovms/rcloud/server/MainServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/fxml/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/fxml/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/fxml/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/fxml/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/META-INF/client.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/META-INF/client.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/fxml/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/fxml/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/fxml/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/fxml/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Controllers/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/net/danilovms/rcloud/client/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/EncodeDecode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/InfoPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/InfoPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/ObjectFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/PackageFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/net/danilovms/rcloud/common/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/META-INF/common.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/EncodeDecode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/InfoPath$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/InfoPath$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/InfoPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/InfoPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/net/danilovms/rcloud/common/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/net/danilovms/rcloud/server/ConnectionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/net/danilovms/rcloud/server/FrameHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/net/danilovms/rcloud/server/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/net/danilovms/rcloud/server/ProtocolPacketHandler.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,19 +71,28 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FileClient" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FileServer" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FileServer" />
       <recent name="$PROJECT_DIR$/FileClient" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="net.danilovms.rcloud.common" />
+      <recent name="net.danilovms.rcloud.server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FileClient" />
@@ -62,25 +101,26 @@
       <recent name="$PROJECT_DIR$/server/src/main/resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main Client">
     <configuration name="Main Client" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="net.danilovms.rcloud.client.Main" />
+      <option name="MAIN_CLASS_NAME" value="net.danilovms.rcloud.client.MainClient" />
       <module name="client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.danilovms.rcloud.client.Controllers.*" />
+          <option name="PATTERN" value="net.danilovms.rcloud.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.danilovms.rcloud.server.MainServer" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.danilovms.rcloud.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,8 +131,21 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main Client" />
+        <item itemvalue="Application.MainServer" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -120,19 +173,85 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575195428977">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.836@0.23.1440.836" timestamp="1575195428977" />
+    <state x="388" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575309463937">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state x="388" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1401.877@0.23.1401.877" timestamp="1575309463937" />
+    <state width="1398" height="269" key="GridCell.Tab.0.bottom" timestamp="1575500922291">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1359" height="285" key="GridCell.Tab.0.bottom/0.23.1401.877@0.23.1401.877" timestamp="1575320342221" />
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1575195669445" />
+    <state width="1398" height="269" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1575500922291" />
+    <state width="1398" height="269" key="GridCell.Tab.0.center" timestamp="1575500922290">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1359" height="285" key="GridCell.Tab.0.center/0.23.1401.877@0.23.1401.877" timestamp="1575320342220" />
+    <state width="1398" height="217" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1575195669444" />
+    <state width="1398" height="269" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1575500922290" />
+    <state width="1398" height="269" key="GridCell.Tab.0.left" timestamp="1575500922290">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1359" height="285" key="GridCell.Tab.0.left/0.23.1401.877@0.23.1401.877" timestamp="1575320342220" />
+    <state width="1398" height="217" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1575195669443" />
+    <state width="1398" height="269" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1575500922290" />
+    <state width="1398" height="269" key="GridCell.Tab.0.right" timestamp="1575500922291">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1359" height="285" key="GridCell.Tab.0.right/0.23.1401.877@0.23.1401.877" timestamp="1575320342220" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1575195669444" />
+    <state width="1398" height="269" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1575500922291" />
+    <state width="1398" height="269" key="GridCell.Tab.1.bottom" timestamp="1575500922293">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1359" height="285" key="GridCell.Tab.1.bottom/0.23.1401.877@0.23.1401.877" timestamp="1575320342222" />
+    <state width="1398" height="269" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1575500922293" />
+    <state width="1398" height="269" key="GridCell.Tab.1.center" timestamp="1575500922292">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1359" height="285" key="GridCell.Tab.1.center/0.23.1401.877@0.23.1401.877" timestamp="1575320342221" />
+    <state width="1398" height="269" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1575500922292" />
+    <state width="1398" height="269" key="GridCell.Tab.1.left" timestamp="1575500922291">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1359" height="285" key="GridCell.Tab.1.left/0.23.1401.877@0.23.1401.877" timestamp="1575320342221" />
+    <state width="1398" height="269" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1575500922291" />
+    <state width="1398" height="269" key="GridCell.Tab.1.right" timestamp="1575500922292">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1359" height="285" key="GridCell.Tab.1.right/0.23.1401.877@0.23.1401.877" timestamp="1575320342222" />
+    <state width="1398" height="269" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1575500922292" />
+    <state x="202" y="100" key="SettingsEditor" timestamp="1575310159977">
+      <screen x="0" y="23" width="1401" height="877" />
+    </state>
+    <state x="202" y="100" key="SettingsEditor/0.23.1401.877@0.23.1401.877" timestamp="1575310159977" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/net/danilovms/rcloud/server/MainHandler.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/client/src/main/java/net/danilovms/rcloud/client/Controllers/Controller.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="14" />
+          <line>137</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="lc" />
+        <watch expression="cm.getCommand()" />
+        <watch expression="localFile.getSelectionModel().getSelectedItem()" />
+        <watch expression="localFile.getSelectionModel()" />
       </configuration>
     </watches-manager>
   </component>

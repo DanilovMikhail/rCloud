@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+public class MainClient extends Application {
 
     private static Stage primaryStage;
 
@@ -17,7 +17,7 @@ public class Main extends Application {
 
     public static Stage getPrimaryStage()
     {
-        return Main.primaryStage;
+        return MainClient.primaryStage;
     }
 
     @Override
